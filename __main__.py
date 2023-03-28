@@ -17,6 +17,8 @@ def get_mask_info(fn):
     cv2.drawContours(color, contours, -1, (0, 0, 255), thickness)
     out_fn = os.path.join("output",fn)
     cv2.imwrite(out_fn,color)
+    
+    #todo　cocoフォーマット作成
 
     
 
